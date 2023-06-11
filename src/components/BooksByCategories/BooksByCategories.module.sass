@@ -1,0 +1,118 @@
+.books
+    display: flex
+
+.image
+    height: 300px
+    width: 212px
+    flex: 0 1 50%
+    cursor: pointer
+
+.booksBlock
+    margin-top: 151px
+    padding-left: 196px
+
+.ulBooks
+    display: flex
+    column-gap: 92px
+    flex-wrap: wrap
+    row-gap: 96px
+
+.aboutDesc
+    padding: 50px 0px
+    flex: 0 1 50%
+
+.about
+    display: flex
+    column-gap: 37px
+    flex: 0 1 45%
+    max-height: 300px
+
+.author
+    font-family: 'Open Sans'
+    font-style: normal
+    font-weight: 400
+    font-size: 10px
+    line-height: 14px
+    text-transform: capitalize
+    color: #5C6A79
+    margin-bottom: 5px
+    min-height: 30px
+    display: flex
+    align-items: center
+
+.title
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 700
+    font-size: 16px
+    line-height: 20px
+    color: black
+    margin-bottom: 5px
+    height: 40px
+    display: flex
+    align-items: center
+    overflow: hidden
+    text-overflow: ellipsis
+    display: flex
+    align-items: flex-start
+
+.reviewText
+    font-family: 'Open Sans'
+    font-style: normal
+    font-weight: 400
+    font-size: 10px
+    line-height: 14px
+    color: #5C6A79
+
+.description
+    margin-top: 16px
+    height: 40px
+    overflow: hidden
+    text-overflow: ellipsis
+    font-family: 'Open Sans'
+    font-style: normal
+    font-weight: 400
+    font-size: 10px
+    line-height: 14px
+    text-transform: capitalize
+
+.countReview
+    display: inline
+    margin-left: 6px
+
+.price
+    margin-top: 16px
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 700
+    font-size: 13px
+    line-height: 16px
+    text-transform: uppercase
+
+.buyBtn
+    margin-top: 16px
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 700
+    font-size: 8px
+    line-height: 10px
+    padding: 18px 60px
+    text-transform: uppercase
+    color: #4C3DB2
+    background-color: white
+    border: 1px solid #4C3DB2
+    cursor: pointer
+    transition: color,background-color 0.3s linear
+    &:hover
+        background-color: #4C3DB2
+        color: white
+
+.buyBtnLoad
+    display: block
+    @extend .buyBtn
+    text-align: center
+    margin-top: 96px
+
+.divLoadMore
+    display: flex
+    justify-content: center

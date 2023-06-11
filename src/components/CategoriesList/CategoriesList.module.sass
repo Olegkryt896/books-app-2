@@ -1,0 +1,48 @@
+.ulList
+    display: flex
+    flex-direction: column
+    position: absolute
+    margin-top: 151px
+    row-gap: 23px
+
+.listItem
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 500
+    font-size: 12px
+    line-height: 15px
+    color: #5C6A79
+    text-transform: capitalize
+    cursor: pointer
+    transition: color 0.3s ease-out
+    &:hover
+        color: #4C3DB2
+        font-weight: 700
+
+.listItemActive
+    @extend .listItem
+    font-family: 'Montserrat'
+    font-style: normal
+    font-weight: 700
+    font-size: 16px
+    line-height: 20px
+    text-transform: capitalize
+    color: #1C2A39
+.div
+    max-width: none
+    position: absolute
+    background-color: #EFEEF6
+    max-width: none
+    min-width: 416px
+    width: 100%
+    min-height: 710px
+    z-index: -10
+    left: -63%
+    top: 952px
+
+.divActiveCategory
+    display: flex
+
+    img
+        position: relative
+        right: 14px
